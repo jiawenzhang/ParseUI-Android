@@ -6,8 +6,8 @@ dependencies {
     compile 'com.parse:parse-android:1.10.1'
 
     provided 'com.facebook.android:facebook-android-sdk:4.0.1'
-    provided files("$rootProject.projectDir/ParseLoginUI/libs/ParseFacebookUtilsV4-1.10.1.jar")
-    provided files("$rootProject.projectDir/ParseLoginUI/libs/ParseTwitterUtils-1.10.1.jar")
+    provided files("$rootProject.projectDir/third-party/Parse/ParseFacebookUtilsV4-1.10.1.jar")
+    provided files("$rootProject.projectDir/third-party/Parse/ParseTwitterUtils-1.10.1.jar")
 
     androidTestCompile 'com.google.dexmaker:dexmaker:1.2'
     androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.2'
@@ -17,7 +17,7 @@ dependencies {
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.1"
+    buildToolsVersion "22.0.1"
 
     defaultConfig {
         minSdkVersion 9
