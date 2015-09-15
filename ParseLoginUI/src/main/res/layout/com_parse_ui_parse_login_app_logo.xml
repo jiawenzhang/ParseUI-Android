@@ -3,5 +3,8 @@
     android:layout_gravity="center"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:maxWidth="130dp"
+    android:maxHeight="130dp"
+    android:adjustViewBounds="true"
     android:src="@drawable/com_parse_ui_app_logo"
     android:contentDescription="@string/com_parse_ui_logo_content_description" />
